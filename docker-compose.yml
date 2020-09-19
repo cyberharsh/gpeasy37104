@@ -1,0 +1,12 @@
+version: '3'
+services:
+ web:
+   image: vaday/gpeasy:37104
+   ports:
+    - "8046:80
+networks:
+  default:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 172.16.57.0/24
