@@ -3,4 +3,4 @@ services:
  web:
    image: vaday/gpeasy:37104
    ports:
-    - "8046:80
+    - 8046:80
